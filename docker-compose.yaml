@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+    go-api:
+        image: go-api:latest
+        ports:
+            - "9999:9999"
+        depends_on:
+            - mongo
+
+    mongo:
+        image: 'mongo:latest'
+        ports:
+            - '27100:27017'
+        volumes:
+            - ./home/manuel.benitez/apps/db:/data/db
+
+networks:
+    default:
+        name: go-api-local-network
+        attachable: true
