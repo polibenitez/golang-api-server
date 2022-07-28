@@ -1,10 +1,10 @@
 # Go Api Server
 A few things to know:
-* **[Github Actions Workflows](https://github.com/polibenitez/recipes-api/tree/main/.github/workflows)** - Pre-configured Github Actions to run automated builds and publish image to Github Packages
-* **[Dockerfile](https://github.com/polibenitez/recipes-api/blob/main/Dockerfile)** - Dockerfile to generate docker builds.
-* **[docker-compose](https://github.com/polibenitez/recipes-api/blob/main/docker-compose.yml)** - Docker compose script to start service with database.
+* **[Github Actions Workflows](https://github.com/polibenitez/go-api-server/tree/main/.github/workflows)** - Pre-configured Github Actions to run automated builds and publish image to Github Packages
+* **[Dockerfile](https://github.com/polibenitez/go-api-server/blob/main/Dockerfile)** - Dockerfile to generate docker builds.
+* **[docker-compose](https://github.com/polibenitez/go-api-server/blob/main/docker-compose.yml)** - Docker compose script to start service with database.
 * **[.env file for configuration](#environment)** - Environment variables
-* **[Terraform files](https://github.com/polibenitez/recipes-api/tree/main/infrastructure)** - Terraform file where is the infrastructure as a code
+* **[Terraform files](https://github.com/polibenitez/go-api-server/tree/main/infrastructure)** - Terraform file where is the infrastructure as a code
 ## Development
 
 ### Infrastructure
